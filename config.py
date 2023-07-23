@@ -16,3 +16,4 @@ class Config(object):
     
     MONGO_STR = environ.get("MONGO_STR", "") # Get from MongoDB Atlas
 
+    DOODSTREAM_API = 'your_doodstream_api_key_here'
